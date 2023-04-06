@@ -90,11 +90,14 @@ xor(y7,a,b);
 xnor(y8,a,b);
 
 Output:
-RTL
+Logic symbol & Truthtable:
+![image](https://user-images.githubusercontent.com/121303741/230293259-b8f976b3-2fb9-41e4-9dd0-a73b2eafc342.png)
 
-![image](https://user-images.githubusercontent.com/121303741/230292553-6f677ad9-6802-4f45-9ec4-24bdbb6dbba4.png)
-![image](https://user-images.githubusercontent.com/121303741/230292597-8f9b409e-9d89-4ca1-99d0-82e1e8efd35e.png)
-![image](https://user-images.githubusercontent.com/121303741/230292631-5cd6d3cd-ced3-40fd-8584-f6d309056d42.png)
+RTL realization:
+![image](https://user-images.githubusercontent.com/121303741/230293339-ae1736a9-a572-4660-afbc-7792247dd596.png)
+
+Timing diagram:
+![image](https://user-images.githubusercontent.com/121303741/230293430-0b7db9b0-643e-4302-86ca-bb9b1911dd0b.png)
 
 
 Result:
