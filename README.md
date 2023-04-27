@@ -96,11 +96,12 @@ endmodule
 ![image](https://user-images.githubusercontent.com/121303741/234761375-571356b2-9e95-4d68-9d4f-709721433af2.png)
 ![image](https://user-images.githubusercontent.com/121303741/234761572-2a3fcd94-89bf-42cb-b976-eefe46f7cca7.png)
 
-RTL realization:
+# RTL realization:
 
 ![image](https://user-images.githubusercontent.com/121303741/234761683-22908447-fe19-4f6e-990d-4f83876bcee6.png)
 
-Timing diagram:
+# Timing diagram:
+
 ![image](https://user-images.githubusercontent.com/121303741/234761724-5b97615e-cdd1-45a8-bfe6-8b180f1d3ba6.png)
 
 
