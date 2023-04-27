@@ -59,48 +59,36 @@ If the output is 1, then the bulb glows.
 Check all the gates following the same procedure.
 
 Program:
-/*
-Program to verify the truth table in quartus for the basic logic gates using Verilog programming.
-Developed by: Vijayaraj.v
-RegisterNumber:  212222230174
-*/
-Logic symbol & Truthtable
 
+Program to verify the truth table in quartus for the basic logic gates using Verilog
+programming.
+Developed by: SUDHAKAR K
+RegisterNumber: 212222240107
 
-module lg(a,b,y1,y2,y3,y4,y5,y6,y7,y8);
-
+module logicgates(a,b,y1,y2,y3,y4,y5,y6,y7);
 input a,b;
-
-output y1,y2,y3,y4,y5,y6,y7,y8;
-
-not(y1,a);
-
-not(y2,b);
-
-and(y3,a,b);
-
-or(y4,a,b);
-
-nand(y5,a,b);
-
-nor(y6,a,b);
-
-xor(y7,a,b);
-
-xnor(y8,a,b);
+output y1,y2,y3,y4,y5,y6,y7;
+and (y1,a,b);
+or (y2,a,b);
+not (y3,a);
+xor (y4,a,b);
+nand (y5,a,b);
+nor (y6,a,b);
+xnor(y7,a,b);
+endmodule
 
 Output:
 Logic symbol & Truthtable:
 
-![image](https://user-images.githubusercontent.com/121303741/230293259-b8f976b3-2fb9-41e4-9dd0-a73b2eafc342.png)
+![image](https://user-images.githubusercontent.com/121303741/234761375-571356b2-9e95-4d68-9d4f-709721433af2.png)
+![image](https://user-images.githubusercontent.com/121303741/234761572-2a3fcd94-89bf-42cb-b976-eefe46f7cca7.png)
 
 RTL realization:
 
-![image](https://user-images.githubusercontent.com/121303741/230293339-ae1736a9-a572-4660-afbc-7792247dd596.png)
+![image](https://user-images.githubusercontent.com/121303741/234761683-22908447-fe19-4f6e-990d-4f83876bcee6.png)
 
 Timing diagram:
-
-![image](https://user-images.githubusercontent.com/121303741/230293430-0b7db9b0-643e-4302-86ca-bb9b1911dd0b.png)
+![image](https://user-images.githubusercontent.com/121303741/234761724-5b97615e-cdd1-45a8-bfe6-8b180f1d3ba6.png)
 
 
 Result:
